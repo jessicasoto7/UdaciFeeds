@@ -78,6 +78,8 @@ $(function() {
 
             menu.click();
             expect(body.hasClass('menu-hidden')).toBe(false);
+            menu.click();
+            expect(body.hasClass('menu-hidden')).toBe(true);
          });
 
     });
